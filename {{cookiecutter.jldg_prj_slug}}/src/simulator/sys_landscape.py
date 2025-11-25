@@ -19,7 +19,7 @@ class SysLandscape(Model_SysLandscape,
         self.lifecycle_sum = {}
 
     def get_parts(self):
-        hasPartsIt = self.graph.objects(predicate=rdflib.term.URIRef('http://type.amp.net:8880/simulation/hasPart'))
+        hasPartsIt = self.graph.objects(predicate=rdflib.term.URIRef('{{cookiecutter.jldg_uri_type_prot}}://{{cookiecutter.jldg_uri_type_host}}:{{cookiecutter.jldg_uri_type_port}}/simulation/hasPart'))
         for hasPart in hasPartsIt:
             (o_type, o_uuid) = hasPart.split('/')[-2:]
             match o_type:
@@ -37,7 +37,7 @@ class SysLandscape(Model_SysLandscape,
                     self.add_Function(function)
 
     def get_processes(self):
-        processesIt = self.graph.objects(predicate=rdflib.term.URIRef('http://type.amp.net:8880/simulation/processes'))
+        processesIt = self.graph.objects(predicate=rdflib.term.URIRef('{{cookiecutter.jldg_uri_type_prot}}://{{cookiecutter.jldg_uri_type_host}}:{{cookiecutter.jldg_uri_type_port}}/simulation/processes'))
         for process in processesIt:
             (o_type, o_uuid) = process.split('/')[-2:]
             match o_type:
