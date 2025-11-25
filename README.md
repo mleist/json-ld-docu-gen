@@ -80,7 +80,9 @@ docker compose up -d
 ./make_all.sh
 ```
 
+### see more documentation
 
+[README_json-ld-docu-gen.md](./{{cookiecutter.jldg_prj_slug}}/README_json-ld-docu-gen.md)
 
 ---
 
