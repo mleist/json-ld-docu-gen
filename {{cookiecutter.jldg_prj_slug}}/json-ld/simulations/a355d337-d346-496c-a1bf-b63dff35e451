@@ -1,0 +1,21 @@
+{
+  "@context": "{{cookiecutter.jldg_uri_schema_prot}}://{{cookiecutter.jldg_uri_schema_host}}:{{cookiecutter.jldg_uri_schema_port}}/schema/simulation.jsonld",
+  "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/simulations/a355d337-d346-496c-a1bf-b63dff35e451",
+  "name": "Simulation 01",
+  "hasPart": [
+    {
+      "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/organisations/03e9b44a-b4f5-49a8-aa6f-dce0ba937953"
+    },
+    {
+      "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/organisations/02d4a272-a910-4406-a839-38400593642b"
+    },
+    {
+      "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/organisations/05aab56a-c722-4fc6-8253-3d63f01f8a92"
+    },
+    {
+      "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/products/9323ec8e-a0d6-478e-a12f-6b2a243bf346"
+    }
+  ],
+  "processes": [
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "@context": "{{cookiecutter.jldg_uri_schema_prot}}://{{cookiecutter.jldg_uri_schema_host}}:{{cookiecutter.jldg_uri_schema_port}}/schema/base.jsonld",
+  "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/organisations/05aaa53d-a00b-4ee3-9189-cca450610efa",
+  "aspect": "organisation",
+  "description": "O1-A3",
+  "name": "O1-A3"
+}

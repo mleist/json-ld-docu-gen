@@ -1,0 +1,10 @@
+{
+  "@context": "{{cookiecutter.jldg_uri_schema_prot}}://{{cookiecutter.jldg_uri_schema_host}}:{{cookiecutter.jldg_uri_schema_port}}/schema/process.jsonld",
+  "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/processes/aaad84ce-7d24-4849-b2d3-987d0a952f38",
+  "name": "Inspektion",
+  "source": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/organisations/05aab56a-c722-4fc6-8253-3d63f01f8a92",
+  "target": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/products/9323ec8e-a0d6-478e-a12f-6b2a243bf346",
+  "source_data": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/procdata_inspection/aaaddda1-09f8-45e1-8371-bddeb68963dc"
+}
+
+

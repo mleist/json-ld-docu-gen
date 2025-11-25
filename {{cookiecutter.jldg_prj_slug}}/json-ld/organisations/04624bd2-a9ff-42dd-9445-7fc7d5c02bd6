@@ -1,0 +1,11 @@
+{
+  "@context": "{{cookiecutter.jldg_uri_schema_prot}}://{{cookiecutter.jldg_uri_schema_host}}:{{cookiecutter.jldg_uri_schema_port}}/schema/organisation.jsonld",
+  "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/organisations/04624bd2-a9ff-42dd-9445-7fc7d5c02bd6",
+  "description": "desc: O-T",
+  "name": "O-T",
+  "isPartOf": {
+    "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/organisations/030aea09-5fff-44dc-b163-36ace2c6a90e"
+  },
+  "hasPart": [
+  ]
+}

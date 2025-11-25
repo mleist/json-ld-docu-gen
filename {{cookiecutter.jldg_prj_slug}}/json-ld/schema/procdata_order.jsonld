@@ -1,0 +1,9 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "http://schema.org/identifier",
+    "name": "{{cookiecutter.jldg_uri_type_prot}}://{{cookiecutter.jldg_uri_type_host}}:{{cookiecutter.jldg_uri_type_port}}/procdata_order/name",
+    "order_number": "{{cookiecutter.jldg_uri_type_prot}}://{{cookiecutter.jldg_uri_type_host}}:{{cookiecutter.jldg_uri_type_port}}/procdata_order/order_number",
+    "order_date": "{{cookiecutter.jldg_uri_type_prot}}://{{cookiecutter.jldg_uri_type_host}}:{{cookiecutter.jldg_uri_type_port}}/procdata_order/order_date"
+  }
+}

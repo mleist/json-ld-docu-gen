@@ -1,0 +1,6 @@
+{
+  "@context": "{{cookiecutter.jldg_uri_schema_prot}}://{{cookiecutter.jldg_uri_schema_host}}:{{cookiecutter.jldg_uri_schema_port}}/schema/base.jsonld",
+  "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/functions/93ecc952-9e42-4fdd-b4dc-b93804d35147",
+  "aspect": "function",
+  "name": "Pumpe 3 Primärkreis"
+}

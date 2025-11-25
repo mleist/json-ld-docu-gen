@@ -1,0 +1,7 @@
+{
+  "@context": "{{cookiecutter.jldg_uri_schema_prot}}://{{cookiecutter.jldg_uri_schema_host}}:{{cookiecutter.jldg_uri_schema_port}}/schema/procdata_delivery.jsonld",
+  "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/procdata_delivery/aaaddd22-88ee-4f0c-85c5-62597968f4f9",
+  "name": "Liefer Daten",
+  "serial_number": "Nr111-777",
+  "deliver_date": "2021-06-30T12:30:00+02:00"
+}

@@ -1,0 +1,16 @@
+{
+  "@context": "{{cookiecutter.jldg_uri_schema_prot}}://{{cookiecutter.jldg_uri_schema_host}}:{{cookiecutter.jldg_uri_schema_port}}/schema/location.jsonld",
+  "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/locations/502fdfe3-def1-40c2-a7b6-b282a64d7ff8",
+  "description": "des function Oberstadt Gebäude",
+  "name": "Betriebsgebäude",
+  "isPartOf": {
+    "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/locations/3daba670-3cb1-4b47-a2f9-8552dba827c5"
+  },
+  "hasPart": [
+    {
+      "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/locations/743379b2-9dd8-4c80-ae80-b439e803d1ba"
+    }
+  ],
+  "containsProduct": [
+  ]
+}

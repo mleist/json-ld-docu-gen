@@ -1,0 +1,11 @@
+{
+  "@context": "{{cookiecutter.jldg_uri_schema_prot}}://{{cookiecutter.jldg_uri_schema_host}}:{{cookiecutter.jldg_uri_schema_port}}/schema/organisation.jsonld",
+  "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/organisations/02d4a272-a910-4406-a839-38400593642b",
+  "description": "S",
+  "name": "S",
+  "roleDeliversTo": [
+    {
+      "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/organisations/02a00c14-9407-4098-82c7-fce78527e0a9"
+    }
+  ]
+}

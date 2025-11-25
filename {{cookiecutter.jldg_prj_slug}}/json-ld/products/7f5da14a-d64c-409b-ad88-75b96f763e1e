@@ -1,0 +1,29 @@
+{
+  "@context": "{{cookiecutter.jldg_uri_schema_prot}}://{{cookiecutter.jldg_uri_schema_host}}:{{cookiecutter.jldg_uri_schema_port}}/schema/product.jsonld",
+  "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/products/7f5da14a-d64c-409b-ad88-75b96f763e1e",
+  "description": "Redundanter Pumpen Cluster",
+  "name": "Pumpen Cluster",
+  "containedIn": {
+    "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/locations/743379b2-9dd8-4c80-ae80-b439e803d1ba"
+  },
+  "providesFunction": [
+  ],
+  "hasPart": [
+    {
+      "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/products/9175908e-2a93-4723-a620-0defeaecb8e7"
+    },
+    {
+      "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/products/92a18d8e-563b-4c76-84eb-49f1b7c05014"
+    },
+    {
+      "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/products/9323ec8e-a0d6-478e-a12f-6b2a243bf346"
+    },
+    {
+      "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/products/99cecc40-cfa9-41d5-8f32-b6c24d46751d"
+    }
+  ],
+  "tags": [
+    "pumpe",
+    "wartung"
+  ]
+}

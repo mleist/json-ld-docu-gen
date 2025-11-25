@@ -1,0 +1,6 @@
+{
+  "@context": "{{cookiecutter.jldg_uri_schema_prot}}://{{cookiecutter.jldg_uri_schema_host}}:{{cookiecutter.jldg_uri_schema_port}}/schema/base.jsonld",
+  "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/locations/743379b2-9dd8-4c80-ae80-b439e803d1ba",
+  "aspect": "location",
+  "name": "Oberstadt Raum A1"
+}

@@ -1,0 +1,17 @@
+{
+  "@context": "{{cookiecutter.jldg_uri_schema_prot}}://{{cookiecutter.jldg_uri_schema_host}}:{{cookiecutter.jldg_uri_schema_port}}/schema/organisation.jsonld",
+  "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/organisations/03d4f732-41af-401a-9849-eed9f3b04f56",
+  "description": "O1",
+  "name": "O1",
+  "isPartOf": {
+    "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/organisations/02a00c14-9407-4098-82c7-fce78527e0a9"
+  },
+  "hasPart": [
+    {
+      "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/organisations/04aa7a37-6824-4adf-aa43-9e611ed137c0"
+    },
+    {
+      "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/organisations/04abc622-11ac-4f55-b695-6b1c9ff34228"
+    }
+  ]
+}

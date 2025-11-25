@@ -1,0 +1,23 @@
+{
+  "@context": "{{cookiecutter.jldg_uri_schema_prot}}://{{cookiecutter.jldg_uri_schema_host}}:{{cookiecutter.jldg_uri_schema_port}}/schema/organisation.jsonld",
+  "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/organisations/02a00c14-9407-4098-82c7-fce78527e0a9",
+  "description": "Anker GmbH",
+  "name": "Anker",
+  "hasPart": [
+    {
+      "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/organisations/03d4f732-41af-401a-9849-eed9f3b04f56"
+    },
+    {
+      "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/organisations/030aea09-5fff-44dc-b163-36ace2c6a90e"
+    },
+    {
+      "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/organisations/03e9b44a-b4f5-49a8-aa6f-dce0ba937953"
+    }
+  ],
+  "roleDeliversTo": [],
+  "roleClientOf": [
+    {
+      "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/organisations/02d4a272-a910-4406-a839-38400593642b"
+    }
+  ]
+}

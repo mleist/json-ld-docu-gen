@@ -1,0 +1,6 @@
+{
+  "@context": "{{cookiecutter.jldg_uri_schema_prot}}://{{cookiecutter.jldg_uri_schema_host}}:{{cookiecutter.jldg_uri_schema_port}}/schema/base.jsonld",
+  "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/functions/7c5599ae-c5f8-4d11-aef9-7b816d2571ac",
+  "aspect": "function",
+  "name": "Pumpen Primärkreis"
+}

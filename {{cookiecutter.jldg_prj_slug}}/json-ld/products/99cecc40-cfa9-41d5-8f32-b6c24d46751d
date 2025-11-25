@@ -1,0 +1,24 @@
+{
+  "@context": "{{cookiecutter.jldg_uri_schema_prot}}://{{cookiecutter.jldg_uri_schema_host}}:{{cookiecutter.jldg_uri_schema_port}}/schema/product.jsonld",
+  "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/products/99cecc40-cfa9-41d5-8f32-b6c24d46751d",
+  "description": "Pumpen-Steuerung desc.",
+  "name": "Pumpensteuerung",
+  "manufacturer": "Grundfos GmbH",
+  "serial_number": "99cecc40",
+  "containedIn": {
+    "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/locations/743379b2-9dd8-4c80-ae80-b439e803d1ba"
+  },
+  "providesFunction": [
+    {
+      "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/functions/7c5599ae-c5f8-4d11-aef9-7b816d2571ac"
+    }
+  ],
+  "isPartOf": {
+    "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/products/7f5da14a-d64c-409b-ad88-75b96f763e1e"
+  },
+  "tags": [
+    "pumpe",
+    "grundfos",
+    "wartung"
+  ]
+}

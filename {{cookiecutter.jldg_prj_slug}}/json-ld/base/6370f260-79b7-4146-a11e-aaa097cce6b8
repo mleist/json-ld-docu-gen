@@ -1,0 +1,6 @@
+{
+  "@context": "{{cookiecutter.jldg_uri_schema_prot}}://{{cookiecutter.jldg_uri_schema_host}}:{{cookiecutter.jldg_uri_schema_port}}/schema/base.jsonld",
+  "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/functions/6370f260-79b7-4146-a11e-aaa097cce6b8",
+  "aspect": "function",
+  "name": "Primärkühlkreis"
+}

@@ -1,0 +1,8 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "http://schema.org/identifier",
+    "raum_bezeichnung": "{{cookiecutter.jldg_uri_type_prot}}://{{cookiecutter.jldg_uri_type_host}}:{{cookiecutter.jldg_uri_type_port}}/loc_amp_geod/raum_bezeichnung",
+    "geo_koordinaten": "{{cookiecutter.jldg_uri_type_prot}}://{{cookiecutter.jldg_uri_type_host}}:{{cookiecutter.jldg_uri_type_port}}/loc_amp_geod/geo_koordinaten"
+  }
+}

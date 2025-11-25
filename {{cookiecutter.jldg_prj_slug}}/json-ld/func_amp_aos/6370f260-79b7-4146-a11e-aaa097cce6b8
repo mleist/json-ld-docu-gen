@@ -1,0 +1,13 @@
+{
+  "@context": "{{cookiecutter.jldg_uri_schema_prot}}://{{cookiecutter.jldg_uri_schema_host}}:{{cookiecutter.jldg_uri_schema_port}}/schema/func_amp_aos.jsonld",
+  "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/functions/6370f260-79b7-4146-a11e-aaa097cce6b8",
+  "psc_top_level": "7",
+  "psc_system": "1",
+  "psc_sub_system": "1",
+  "psc_code": "711",
+  "psc_de_title": "Primärkühlsystem",
+  "psc_en_title": "Primary Cooling System"
+}
+
+
+

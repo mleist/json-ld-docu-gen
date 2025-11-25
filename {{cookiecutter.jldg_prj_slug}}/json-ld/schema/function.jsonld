@@ -1,0 +1,37 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "http://schema.org/identifier",
+    "scope": "{{cookiecutter.jldg_uri_type_prot}}://{{cookiecutter.jldg_uri_type_host}}:{{cookiecutter.jldg_uri_type_port}}/function/scope",
+    "name": "{{cookiecutter.jldg_uri_type_prot}}://{{cookiecutter.jldg_uri_type_host}}:{{cookiecutter.jldg_uri_type_port}}/function/name",
+    "created": "{{cookiecutter.jldg_uri_type_prot}}://{{cookiecutter.jldg_uri_type_host}}:{{cookiecutter.jldg_uri_type_port}}/function/created",
+    "modified": "{{cookiecutter.jldg_uri_type_prot}}://{{cookiecutter.jldg_uri_type_host}}:{{cookiecutter.jldg_uri_type_port}}/function/modified",
+    "expire": "{{cookiecutter.jldg_uri_type_prot}}://{{cookiecutter.jldg_uri_type_host}}:{{cookiecutter.jldg_uri_type_port}}/function/expire",
+    "cached": "{{cookiecutter.jldg_uri_type_prot}}://{{cookiecutter.jldg_uri_type_host}}:{{cookiecutter.jldg_uri_type_port}}/function/cached",
+    "type": "{{cookiecutter.jldg_uri_type_prot}}://{{cookiecutter.jldg_uri_type_host}}:{{cookiecutter.jldg_uri_type_port}}/function/type",
+    "risk_class": "{{cookiecutter.jldg_uri_type_prot}}://{{cookiecutter.jldg_uri_type_host}}:{{cookiecutter.jldg_uri_type_port}}/function/risk_class",
+    "consumer": {
+      "@id": "{{cookiecutter.jldg_uri_type_prot}}://{{cookiecutter.jldg_uri_type_host}}:{{cookiecutter.jldg_uri_type_port}}/function/consumer",
+      "@container": "@set"
+    },
+    "validNotBefore": "{{cookiecutter.jldg_uri_type_prot}}://{{cookiecutter.jldg_uri_type_host}}:{{cookiecutter.jldg_uri_type_port}}/function/validNotBefore",
+    "validNotAfter": "{{cookiecutter.jldg_uri_type_prot}}://{{cookiecutter.jldg_uri_type_host}}:{{cookiecutter.jldg_uri_type_port}}/function/validNotAfter",
+    "description": "{{cookiecutter.jldg_uri_type_prot}}://{{cookiecutter.jldg_uri_type_host}}:{{cookiecutter.jldg_uri_type_port}}/function/description",
+    "isPartOf": "{{cookiecutter.jldg_uri_type_prot}}://{{cookiecutter.jldg_uri_type_host}}:{{cookiecutter.jldg_uri_type_port}}/function/isPartOf",
+    "hasPart": {
+      "@id": "{{cookiecutter.jldg_uri_type_prot}}://{{cookiecutter.jldg_uri_type_host}}:{{cookiecutter.jldg_uri_type_port}}/function/hasPart",
+      "@container": "@set"
+    },
+    "providesFunction": "{{cookiecutter.jldg_uri_type_prot}}://{{cookiecutter.jldg_uri_type_host}}:{{cookiecutter.jldg_uri_type_port}}/function/providesFunction",
+    "implementedBy": {
+      "@id": "{{cookiecutter.jldg_uri_type_prot}}://{{cookiecutter.jldg_uri_type_host}}:{{cookiecutter.jldg_uri_type_port}}/function/implementedBy",
+      "@container": "@set"
+    },
+    "usedBy": "{{cookiecutter.jldg_uri_type_prot}}://{{cookiecutter.jldg_uri_type_host}}:{{cookiecutter.jldg_uri_type_port}}/function/usedBy",
+    "tags": {
+      "@id": "{{cookiecutter.jldg_uri_type_prot}}://{{cookiecutter.jldg_uri_type_host}}:{{cookiecutter.jldg_uri_type_port}}/function/tags",
+      "@container": "@set"
+    }
+  }
+}

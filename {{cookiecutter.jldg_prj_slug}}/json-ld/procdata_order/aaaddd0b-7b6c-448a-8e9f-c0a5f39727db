@@ -1,0 +1,7 @@
+{
+  "@context": "{{cookiecutter.jldg_uri_schema_prot}}://{{cookiecutter.jldg_uri_schema_host}}:{{cookiecutter.jldg_uri_schema_port}}/schema/procdata_order.jsonld",
+  "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/procdata_order/aaaddd0b-7b6c-448a-8e9f-c0a5f39727db",
+  "name": "Pumpen Bestellung",
+  "order_number": "123-456-789",
+  "order_date": "2019-06-30T12:30:00+02:00"
+}

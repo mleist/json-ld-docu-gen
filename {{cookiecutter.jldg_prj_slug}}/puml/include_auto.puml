@@ -1,0 +1,55 @@
+@startuml
+
+skinparam BackgroundColor #FFFFFF
+skinparam ArrowThickness 2
+skinparam ArrowColor #644500
+skinparam ArrowFontColor #B0B0B0
+skinparam PackageBackgroundColor #E0E0E0
+skinparam PackageBorderColor #606060
+skinparam PackageFontColor #606060
+skinparam ClassBorderColor #808080
+skinparam ClassBackgroundColor #FFFFFF
+skinparam ClassAttributeFontColor #000000
+skinparam ClassFontColor #000000
+skinparam ClassStereotypeFontColor #000000
+skinparam ParticipantBorderColor #808080
+skinparam ParticipantBackgroundColor #FFFFFF
+skinparam ParticipantAttributeFontColor #000000
+skinparam ParticipantFontColor #000000
+skinparam ParticipantStereotypeFontColor #000000
+skinparam Shadowing True
+skinparam SequenceLifeLineBorderThickness 3
+skinparam SequenceLifeLineBorderColor #FAAD00
+skinparam HyperlinkColor #000000
+skinparam LegendBackgroundColor #FFFFFF
+skinparam LegendBorderThickness 0
+skinparam LegendFontColor #404040
+skinparam LegendFontSize 10
+skinparam TitleFontColor #A0A0A0
+skinparam TitleFontSize 9
+skinparam NoteBackgroundColor #E8E8E8
+skinparam NoteBorderColor #C0C0C0
+skinparam NoteFontSize 10
+skinparam lifelineStrategy solid
+
+set namespaceSeparator ::
+
+hide circle
+hide empty members
+hide footbox
+
+!$COL_FUNCTION = "#90EE90"
+!$COL_LOCATION = "#D3D3D3"
+!$COL_ORGANISATION = "#A0A020"
+!$COL_PRODUCT = "#ADD8E6"
+!$COL_DOMAIN = "#FFEE90"
+!$COL_SUBDOMAIN = "#FFF4D0"
+!$COL_BUSINESS_TERM = "#FFA0A0"
+!$COL_SYSTEM = "#FF80FF"
+!$COL_SUB_SYSTEM = "#FFD0FF"
+!$COL_PROCESS = "#MediumSlateBlue"
+!$COL_STATE_ADDED = "#E0FFB0"
+!$COL_STATE_MODIFIED = "#FFE0B0"
+!$COL_STATE_UNCHANGED = "#whitesmoke"
+
+@enduml

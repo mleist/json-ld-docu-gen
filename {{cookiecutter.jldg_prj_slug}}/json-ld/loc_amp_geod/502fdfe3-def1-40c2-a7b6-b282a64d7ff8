@@ -1,0 +1,5 @@
+{
+  "@context": "{{cookiecutter.jldg_uri_schema_prot}}://{{cookiecutter.jldg_uri_schema_host}}:{{cookiecutter.jldg_uri_schema_port}}/schema/loc_amp_geod.jsonld",
+  "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/locations/502fdfe3-def1-40c2-a7b6-b282a64d7ff8",
+  "geo_koordinaten": "50,87122° N; 6,45326° O"
+}

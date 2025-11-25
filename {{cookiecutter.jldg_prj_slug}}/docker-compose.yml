@@ -1,0 +1,11 @@
+services:
+  nginx:
+    image: nginx
+    volumes:
+      - ./json-ld:/usr/share/nginx/html:ro
+      - ./default.conf:/etc/nginx/conf.d/default.conf:ro
+    ports:
+      - {{cookiecutter.jldg_uri_data_port}}:80
+    environment:
+     - NGINX_HOST={{cookiecutter.jldg_uri_data_host}}
+     - NGINX_PORT=80

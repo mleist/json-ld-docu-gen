@@ -1,0 +1,6 @@
+{
+  "@context": "{{cookiecutter.jldg_uri_schema_prot}}://{{cookiecutter.jldg_uri_schema_host}}:{{cookiecutter.jldg_uri_schema_port}}/schema/base.jsonld",
+  "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/functions/92d9f821-97ae-471b-b234-5be6c22c392e",
+  "aspect": "function",
+  "name": "Pumpe 2 Primärkreis"
+}

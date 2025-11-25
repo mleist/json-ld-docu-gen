@@ -1,0 +1,20 @@
+# Development dependencies (include base requirements)
+-r requirements.txt
+
+# Testing
+pytest>=9.0.1
+pytest-cov>=7.0.0
+pytest-mock>=3.15.1
+
+# Code quality
+flake8>=7.3.0
+black>=25.11.0
+isort>=7.0.0
+mypy>=1.18.2
+
+# Documentation
+sphinx-autodoc-typehints>=3.5.2
+sphinx-rtd-theme>=3.0.2
+
+# Pre-commit hooks
+pre-commit>=4.5.0

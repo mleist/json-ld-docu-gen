@@ -1,0 +1,7 @@
+{
+  "@context": "{{cookiecutter.jldg_uri_schema_prot}}://{{cookiecutter.jldg_uri_schema_host}}:{{cookiecutter.jldg_uri_schema_port}}/schema/base.jsonld",
+  "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/organisations/03e9b44a-b4f5-49a8-aa6f-dce0ba937953",
+  "aspect": "organisation",
+  "description": "E | EINKAUF",
+  "name": "E"
+}

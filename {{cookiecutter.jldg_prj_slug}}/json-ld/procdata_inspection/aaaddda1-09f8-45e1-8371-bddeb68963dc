@@ -1,0 +1,7 @@
+{
+  "@context": "{{cookiecutter.jldg_uri_schema_prot}}://{{cookiecutter.jldg_uri_schema_host}}:{{cookiecutter.jldg_uri_schema_port}}/schema/procdata_inspection.jsonld",
+  "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/procdata_inspection/aaaddda1-09f8-45e1-8371-bddeb68963dc",
+  "name": "Inspektions-Auftrag",
+  "action": "Maßnahme 4711",
+  "inspection_date": "2023-06-30T12:30:00+02:00"
+}

@@ -1,0 +1,24 @@
+{
+  "@context": "{{cookiecutter.jldg_uri_schema_prot}}://{{cookiecutter.jldg_uri_schema_host}}:{{cookiecutter.jldg_uri_schema_port}}/schema/product.jsonld",
+  "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/products/92a18d8e-563b-4c76-84eb-49f1b7c05014",
+  "description": "Pumpe 2 desc.",
+  "name": "Pumpe 2",
+  "manufacturer": "Grundfos GmbH",
+  "serial_number": "92a18d8e",
+  "containedIn": {
+    "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/locations/743379b2-9dd8-4c80-ae80-b439e803d1ba"
+  },
+  "providesFunction": [
+    {
+      "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/functions/92d9f821-97ae-471b-b234-5be6c22c392e"
+    }
+  ],
+  "isPartOf": {
+    "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/products/7f5da14a-d64c-409b-ad88-75b96f763e1e"
+  },
+  "tags": [
+    "pumpe",
+    "grundfos",
+    "wartung"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "{{cookiecutter.jldg_uri_schema_prot}}://{{cookiecutter.jldg_uri_schema_host}}:{{cookiecutter.jldg_uri_schema_port}}/schema/function.jsonld",
+  "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/functions/6370f260-79b7-4146-a11e-aaa097cce6b8",
+  "aspect": "function",
+  "name": "Primärkühlkreis",
+  "description": "Primärkühlkreis der HGÜ-Station",
+  "isPartOf": {
+    "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/functions/28181470-963e-46f8-b807-9770bf1bc1b4"
+  },
+  "hasPart": [
+    {
+      "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/functions/7c5599ae-c5f8-4d11-aef9-7b816d2571ac"
+    }
+  ],
+  "tags": [
+    "hgü",
+    "kühlkreis"
+  ]
+}

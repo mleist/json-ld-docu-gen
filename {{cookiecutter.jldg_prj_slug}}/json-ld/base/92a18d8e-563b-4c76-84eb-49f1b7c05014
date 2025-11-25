@@ -1,0 +1,7 @@
+{
+  "@context": "{{cookiecutter.jldg_uri_schema_prot}}://{{cookiecutter.jldg_uri_schema_host}}:{{cookiecutter.jldg_uri_schema_port}}/schema/base.jsonld",
+  "@id": "{{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/products/92a18d8e-563b-4c76-84eb-49f1b7c05014",
+  "aspect": "product",
+  "name": "Pumpe 2",
+  "tags": ["aa1", "aa2", "bb1"]
+}
