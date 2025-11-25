@@ -8,3 +8,4 @@ python src/swimlanes.py --puml_out=puml_generated/swim_01.puml --data_uri={{cook
 python src/swimlanes.py --puml_out=puml_generated/swim_02.puml --data_uri={{cookiecutter.jldg_uri_data_prot}}://{{cookiecutter.jldg_uri_data_host}}:{{cookiecutter.jldg_uri_data_port}}/simulations/e59758b5-5576-42ef-ab06-c9cf076a461f
 
 docker run -it --rm -v "$(pwd):/docs" docker-sphinx-generator:2025.11 make latexpdf
+docker run -it --rm -v "$(pwd):/docs" docker-sphinx-generator:2025.11 make html
