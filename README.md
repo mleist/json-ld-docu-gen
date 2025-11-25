@@ -84,6 +84,10 @@ docker compose up -d
 
 [README_json-ld-docu-gen.md](./{{cookiecutter.jldg_prj_slug}}/README_json-ld-docu-gen.md)
 
+### generated example PDF
+
+[acme-demo.pdf](acme-demo.pdf)
+
 ---
 
 **json-ld-docu-gen** — *Where data meets documentation.*
