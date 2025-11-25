@@ -1,3 +1,11 @@
+# json-ld-docu-gen
+
+**Automated Documentation Generation from JSON-LD Data**
+
+A powerful toolkit for enterprises to automatically generate comprehensive documentation from JSON-LD instance data. Visualize complex organizational data flows, technical system topologies, and process swimlanes through semantic linked data.
+
+---
+
 ## 1st Steps - how to use it in a virtual python environment.
 
 ### optionally create a virtual environment like
@@ -42,3 +50,38 @@ cruft create --help
 ╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ```
 
+### build acme demo
+
+#### generate initial source
+
+```bash
+cruft create --no-input \
+    --skip envs \
+    --config-file ./cookiecutter-acme-demo.yaml \
+    --output-dir . \
+    https://github.com/mleist/json-ld-docu-gen/
+```
+
+#### change to new source dir
+
+```bash
+cd acme-interfaces/
+```
+
+#### start microservice with json-ld data
+
+```bash
+docker compose up -d
+```
+
+#### generate the documentation
+
+```bash
+./make_all.sh
+```
+
+
+
+---
+
+**json-ld-docu-gen** — *Where data meets documentation.*

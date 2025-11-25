@@ -1,0 +1,12 @@
+default_context:
+  jldg_prj_name: ACME Interfaces
+  jldg_prj_slug: "{{ cookiecutter.jldg_prj_name|lower|replace(' ', '-') }}"
+  jldg_uri_data_prot: http
+  jldg_uri_data_host: data.acme.net
+  jldg_uri_data_port: 8880
+  jldg_uri_schema_prot: http
+  jldg_uri_schema_host: schema.acme.net
+  jldg_uri_schema_port: 8880
+  jldg_uri_type_prot: http
+  jldg_uri_type_host: type.acme.net
+  jldg_uri_type_port: 8880
