@@ -16,7 +16,7 @@ from conf.acme import *
 # -- Project information -----------------------------------------------------
 
 project = '{{cookiecutter.jldg_prj_name}}'
-author = 'markus@lei.st'
+author = 'email@mail.me'
 release = '0.01'
 language = 'de'
 
