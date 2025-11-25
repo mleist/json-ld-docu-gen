@@ -1,7 +1,0 @@
-{
-  "@context": {
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "id": "http://schema.org/identifier",
-    "obj_kennzeichnung": "{{cookiecutter.jldg_uri_type_prot}}://{{cookiecutter.jldg_uri_type_host}}:{{cookiecutter.jldg_uri_type_port}}/prod_amp_aos/obj_kennzeichnung"
-  }
-}
